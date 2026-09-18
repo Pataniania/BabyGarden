@@ -13,18 +13,24 @@
   * Roams randomly within the world's `NavMeshBoundsVolume`.
   * Dynamically toggles between `CharacterMovementComponent` (for active AI navigation) and `SkeletalMesh` physics simulation (ragdoll state when grabbed or thrown).
 
+
+<img width="462" height="257" alt="image" src="https://github.com/user-attachments/assets/678dea08-5200-44ed-9581-3fcba29b8d82" />
+*Image of the baby and it's hapinness bar
+
 ### `BP_Toy`
 * **Interface-Driven Lifecycle:** Uses Blueprint Interfaces to toggle states safely without hard-coupling to specific actor classes.
 * **Deactivation:** Disables static mesh rendering, turns off physics simulation, and disables component ticking to optimize performance.
 * **Activation:** Restores mesh visibility, enables physics simulation, and re-activates ticking upon being released or spawned.
+<img width="394" height="264" alt="image" src="https://github.com/user-attachments/assets/b7c6f39e-c6e4-4dd4-9bbb-8dff3618f731" />
+*Image of the toy
 
 
-<img width="724" height="453" alt="image" src="https://github.com/user-attachments/assets/a5c97a87-00ad-47f2-ba4c-20775cf9ab94" />
-* Image of the toy box
 
 
 ### `BP_ToyBox`
 * **Overlap Logic:** Detects collision overlap events with actors implementing the `BP_Toy` interface and automatically triggers their deactivation sequence.
+<img width="724" height="453" alt="image" src="https://github.com/user-attachments/assets/a5c97a87-00ad-47f2-ba4c-20775cf9ab94" />
+* Image of the toy box
 
 ### `BP_CharacterController`
 * **Locomotion & Line Tracing:** Handles player input, camera rotation, and line tracing (`LineTraceForObjects`) to detect interactive world items.
