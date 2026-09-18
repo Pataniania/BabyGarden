@@ -53,4 +53,4 @@ Generative AI (Gemini) was utilized as a technical collaborator, code debugger, 
 For the roaming baby logic: https://www.youtube.com/watch?v=5DyFyqUegfA&t=188s
 
 
-For the grab part: youtube.com/watch?v=1-EuJWwyt_g&vl=fr
+For the grab part:  https://www.youtube.com/watch?v=1-EuJWwyt_g&vl=fr
