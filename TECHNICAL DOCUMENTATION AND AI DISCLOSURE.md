@@ -18,6 +18,11 @@
 * **Deactivation:** Disables static mesh rendering, turns off physics simulation, and disables component ticking to optimize performance.
 * **Activation:** Restores mesh visibility, enables physics simulation, and re-activates ticking upon being released or spawned.
 
+
+<img width="724" height="453" alt="image" src="https://github.com/user-attachments/assets/a5c97a87-00ad-47f2-ba4c-20775cf9ab94" />
+* Image of the toy box
+
+
 ### `BP_ToyBox`
 * **Overlap Logic:** Detects collision overlap events with actors implementing the `BP_Toy` interface and automatically triggers their deactivation sequence.
 
