@@ -39,6 +39,9 @@
   * Smoothly updates target location and rotation relative to camera forward vectors per frame (`Event Tick`).
   * Suppresses unwanted rotational spinning while held.
   * Applies directional velocity impulses on release for throwing mechanics.
+ 
+*  **Inputs:**
+ * Left click to grab the baby or a toy  
 
 ---
 
