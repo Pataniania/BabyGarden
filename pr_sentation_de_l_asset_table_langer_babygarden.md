@@ -34,8 +34,12 @@ Le serveur MCP a exécuté la construction procédurale et assemblé **37 pièce
 * **Optimisation :** **1 468 triangles** (bien en dessous de la limite fixée à 3 000), ombrage plat (*Flat Shading*) avec biseaux légers et carte UV générée.
 * **Matériaux appliqués :** 5 matériaux distincts (`M_Wood_Light`, `M_Pad_Cream`, `M_Props_PastelBlue`, `M_Props_SoftYellow` et `M_Props_SoftPink` ajouté automatiquement pour le flacon de lotion).
 
-![Rendu de la station à langer dans Blender](image_69ae87.png)
-*(Note : Pense à inclure ici également ta capture d'écran de la conversation/prompt dans Claude si nécessaire pour ton dossier).*
+<img width="641" height="559" alt="image" src="https://github.com/user-attachments/assets/1a9a5b24-b476-4334-a5e7-c74c461d87b7" />
+
+<img width="765" height="794" alt="image" src="https://github.com/user-attachments/assets/e6ec6312-8496-461e-913f-2df1493ac080" />
+
+<img width="814" height="422" alt="image" src="https://github.com/user-attachments/assets/3b751293-166f-41b9-97da-2a3af1b54147" />
+
 
 ---
 
@@ -60,6 +64,4 @@ Lors de l'exécution, l'agent MCP a automatiquement géré les contraintes spéc
 
 ### Résultat final dans Unreal Engine
 
-*(Insère ici la capture d'écran générée dans le dossier du projet : `Saved/Screenshots/BabyChangingStation_Final.png`, accompagnée de la capture du prompt d'exécution Unreal).*
-
-![Intégration de la station à langer dans Unreal Engine](Saved/Screenshots/BabyChangingStation_Final.png)
+<img width="857" height="499" alt="image" src="https://github.com/user-attachments/assets/4d39405f-a688-43e8-bf8d-f5da6bc891f1" />
